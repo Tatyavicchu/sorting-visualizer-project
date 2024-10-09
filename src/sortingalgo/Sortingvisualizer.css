@@ -1,0 +1,17 @@
+/* src/components/SortingVisualizer.css */
+.bar-container {
+    background-color: red;
+    display: flex;
+    align-items: flex-end;
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .bar {
+    background-color: turquoise;
+    width: 20px;
+    margin: 0 2px;
+    transition: height 0.1s ease-in-out;
+  }
+  
